@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>Closure Ex2</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var outer=function(num1){
+			var innerFunction=function(num2){
+				return num2*4;
+			}
+			return "Result is:"+innerFunction(num2);
+		};
+		document.write(outer(10));
+	</script>
+</body>
+</html>
